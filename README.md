@@ -6,6 +6,8 @@ Auto-generate the duty schedule sheet for the school salary. It's based on the e
 
 The python script will get the data from the `schedular_config.csv`, and generate the duty schedule excel file.
 
+>**📌** If there is no `schedular_config.csv`, please build it by yourself, don't be lazy pals~😂
+
 ## schedular_config format
 |身分證字號|工作天(星期)|開始時間(hr:min)|截止時間(hr:min)|工作內容|
 |:-------:|:----------:|:-------------:|:--------------:|:-----:|
