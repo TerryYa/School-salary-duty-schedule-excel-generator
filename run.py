@@ -78,7 +78,7 @@ def auto_generate(ids, list_weeks, list_start, list_end, contents):
                 start_m[idx]), int(end_h[idx]), int(end_m[idx])
 
             df = df.append({'*聘任人員身分證字號': ids[i],
-                            '*工作日期(yyyy/mm/dd)': f'{year}/{month_target:02d}/{dates[i_d]}',
+                            '*工作日期(yyyy/mm/dd)': f'{year}/{month_target:02d}/{dates[i_d]:02d}',
                             '*工作時間(時)(起)': f'{h1:02d}',
                             '*工作時間(分)(起)': f'{m1:02d}',
                             '*工作時間(時)(迄)': f'{h2:02d}',
